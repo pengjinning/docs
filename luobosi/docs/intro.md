@@ -2,46 +2,77 @@
 sidebar_position: 1
 ---
 
-# 萝卜丝简介
+# 简介
 
-Let's discover **Docusaurus in less than 5 minutes**.
+## 什么是萝卜丝？
 
-## Getting Started
+萝卜丝是一企业级智能客服解决方案。包含服务器端和客户端，其中客户端支持Web/H5、安卓、iOS、Windows、Mac、微信公众号、小程序等。服务器端开发语言Java，基于SpringBoot2开发，支持SpringCloud微服务架构，分布式集群、跨机房部署。致力于打造支持亿级长连接，百万级并发的企业级智能客服解决方案。
 
-Get started by **creating a new site**.
+## 使命
 
-Or **try Docusaurus immediately** with **[docusaurus.new](https://docusaurus.new)**.
+让获客更高效
 
-### What you'll need
+## 发展历史
 
-- [Node.js](https://nodejs.org/en/download/) version 14 or above:
-  - When installing Node.js, you are recommended to check all checkboxes related to dependencies.
+- 2018年，基于SpringCloud微服务改造上线, 发布智能客服[萝卜丝](https://www.bytedesk.com)
+- 2017年，通讯协议Stomp/WebSocket/MQTT/私有协议
+- 2014年，[微客服](http://www.weikefu.net)集群版发布
+- 2013年，[微客服](http://www.weikefu.net)单机版发布
 
-## Generate a new site
+## 部分成功案例
 
-Generate a new Docusaurus site using the **classic template**.
+### 某*生银行
 
-The classic template will automatically be added to your project after you run the command:
+为某*生银行信用卡中心统一客服平台提供在线客服和内部IM即时通讯核心模块。支持其北京和成都两地客服中心近万坐席同时在线和沟通。
+<!-- TODO:插图展示 -->
 
-```bash
-npm init docusaurus@latest my-website classic
-```
+### 某*列留学
 
-You can type this command into Command Prompt, Powershell, Terminal, or any other integrated terminal of your code editor.
+为国内某著名教育留学平台*列留学的数百万用户和数万留学顾问提供稳定的实时在线沟通即时通讯解决方案
+<!-- TODO:插图展示 -->
 
-The command also installs all necessary dependencies you need to run Docusaurus.
+### 某*东石油
 
-## Start your site
+为[*东石油](https://www.weikefu.net/pages/case-shiyou.html)提供数千坐席提供稳定的App内在线客服解决方案
+<!-- TODO:插图展示 -->
 
-Run the development server:
+### 某**动铁通
 
-```bash
-cd my-website
-npm run start
-```
+为[**动铁通](https://www.weikefu.net/pages/case-hejiating.html)数百坐席提供稳定的公众号内在线客服解决方案
+<!-- TODO:插图展示 -->
 
-The `cd` command changes the directory you're working with. In order to work with your newly created Docusaurus site, you'll need to navigate the terminal there.
+## 功能特点
 
-The `npm run start` command builds your website locally and serves it through a development server, ready for you to view at http://localhost:3000/.
+### 支持全平台
 
-Open `docs/intro.md` (this page) and edit some lines: the site **reloads automatically** and displays your changes.
+支持Web/H5、安卓、iOS、Windows、Mac、微信公众号、小程序等
+
+### 支持分布式部署，支持微服务架构
+
+后台开发语言Java，基于SpringBoot2开发，支持Spring Cloud微服务架构。支持分布式集群部署
+
+### 支持亿级长连接，百万级并发
+
+致力于打造高并发架构，支持分布式集群部署，完全消除单点故障
+
+### API功能丰富
+
+提供IM相关接口，如发送文本消息、图片消息、语音消息、位置消息、红包消息、商品消息、阅后即焚、消息撤回等，支持单聊和群聊，同时也包含客服工作组会话、指定坐席会话、统计数据查询导出等众多在线客服相关接口。
+<!-- TODO:统计接口数量，并展示 -->
+
+### 模块分离
+
+IM、在线客服等模块互相分离，更易于开发、维护
+<!-- TODO:添加模块图架构 -->
+
+### SAAS多租户架构
+
+基于萝卜丝您可以为自家产品提供即时通讯服务，也可以作为平台，同时为多家客户提供服务
+
+### 商业技术支持
+
+<!-- 如果您需要技术支持或者定制服务，我们很乐意为您提供商业技术支持。[技术支持群列表](/other/support.md) -->
+
+## 微信公众号
+
+<!-- <img :src="$withBase('/image/qrcode_xiaperio_430.jpg')" style="width:250px;"/> -->
