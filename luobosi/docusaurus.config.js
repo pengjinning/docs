@@ -71,41 +71,33 @@ const config = {
         style: 'dark',
         links: [
           {
-            title: 'Docs',
+            title: '官网',
             items: [
               {
-                label: 'Tutorial',
+                label: '萝卜丝',
+                href: 'https://www.bytedesk.com',
+              },
+            ],
+          },
+          {
+            title: '文档',
+            items: [
+              {
+                label: '开发文档',
                 to: '/docs/intro',
               },
             ],
           },
           {
-            title: 'Community',
+            title: '更多',
             items: [
               {
-                label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-              },
-              // {
-              //   label: 'Discord',
-              //   href: 'https://discordapp.com/invite/docusaurus',
-              // },
-              // {
-              //   label: 'Twitter',
-              //   href: 'https://twitter.com/docusaurus',
-              // },
-            ],
-          },
-          {
-            title: 'More',
-            items: [
-              {
-                label: 'Blog',
+                label: '博客',
                 to: '/blog',
               },
               {
-                label: 'GitHub',
-                href: 'https://github.com/pengjinning/docs',
+                label: 'Docusaurus',
+                href: 'https://docusaurus.io/docs',
               },
             ],
           },
