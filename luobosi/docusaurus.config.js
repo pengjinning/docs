@@ -55,11 +55,11 @@ const config = {
             position: 'left',
             label: '帮助文档',
           },
-          // {
-          //   to: '/blog',
-          //   label: '博客',
-          //   position: 'left'
-          // },
+          {
+            to: '/blog',
+            label: '博客',
+            position: 'left'
+          },
           {
             href: 'https://github.com/pengjinning/docs',
             label: 'GitHub',
@@ -91,10 +91,10 @@ const config = {
           {
             title: '更多',
             items: [
-              // {
-              //   label: '博客',
-              //   to: '/blog',
-              // },
+              {
+                label: '博客',
+                to: '/blog',
+              },
               {
                 label: 'Docusaurus',
                 href: 'https://docusaurus.io/docs',
