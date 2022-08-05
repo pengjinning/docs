@@ -4,32 +4,29 @@ import styles from './styles.module.css';
 
 const FeatureList = [
   {
-    title: 'Easy to Use',
+    title: '全渠道',
     Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        同一客服可以同时接待来自安卓、iOS、网站、微信公众号、小程序等多渠道的访客.
       </>
     ),
   },
   {
-    title: 'Focus on What Matters',
+    title: '更智能',
     Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+        全球领先的人工智能学习技术，能够精确回答重复问题，全面提升客服工作效率，提高客户满意度.
       </>
     ),
   },
   {
-    title: 'Powered by React',
+    title: '移动客服',
     Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        支持手机客服端，客服随时随地接待访客，办公更灵活
       </>
     ),
   },
