@@ -8,7 +8,7 @@ sidebar_position: 0
 - [价格](https://www.weikefu.net/pages/price.html)
 - [管理后台](https://www.weikefu.net/admin)
 - [客服工作台](https://www.weikefu.net/chaty)
-- [客服端下载](https://cdn.bytedesk.com/download)
+- [客服端下载](https://www.weikefu.net/pages/download.html)
 
 ## 部分功能
 
@@ -38,7 +38,7 @@ sidebar_position: 0
 {
  "path": "components/bytedesk_kefu/chat-kf",
  "style": {
-  "navigationBarTitleText": "萝卜丝智能客服",
+  "navigationBarTitleText": "",
   "navigationBarBackgroundColor":"#007AFF",
   "navigationBarTextStyle":"white"
  }
@@ -46,7 +46,7 @@ sidebar_position: 0
 {
  "path": "components/bytedesk_kefu/chat-im",
  "style": {
-  "navigationBarTitleText": "萝卜丝智能客服",
+  "navigationBarTitleText": "",
   "navigationBarBackgroundColor":"#007AFF",
   "navigationBarTextStyle":"white"
  }
